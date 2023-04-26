@@ -1,2 +1,2 @@
 # React_Projects
-This repo is reserced for react projects
+This repo is reserved for react projects
