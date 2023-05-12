@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Gandah/React_Projects/tree/main/order_summary_component)
-- Live Site URL: [live Site ](https://your-live-site-url.com)
+- Live Site URL: [Visit Card](https://order-summary-card-lake-seven.vercel.app/)
 
 ## My process
 
