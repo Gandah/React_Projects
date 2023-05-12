@@ -1,0 +1,47 @@
+*, 
+*::before, 
+*::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+@media only screen and (min-width:300px){
+  body{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: hsl(225, 100%, 94%);
+
+}
+}
+
+#root{
+  height: 100%;
+  display: inherit;
+  place-content: center;
+  min-width: 300px;
+}
+
+@media only screen and (max-width:769px){
+  body{
+    background-image: url('./assets/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+}
+
+@media only screen and (min-width:800px){
+    body{
+        background-image: url('./assets/pattern-background-desktop.svg'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+    }
+}
